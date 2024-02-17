@@ -2,7 +2,7 @@
 	"id": "pf2e-always-damage-buttons",
 	"title": "Pf2E Always Damage Buttons",
 	"description": "Always show damage buttons on damage rolls because Shark said no.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"authors": [
 		{
 			"name": "LebombJames",
@@ -19,6 +19,6 @@
 		"requires": [{ "id": "pf2e", "type": "system" }]
 	},
     "manifest": "https://raw.githubusercontent.com/LebombJames/pf2e-always-damage-buttons/main/module.json",
-    "download": "https://github.com/LebombJames/pf2e-always-damage-buttons/archive/1.0.0.zip",
+    "download": "https://github.com/LebombJames/pf2e-always-damage-buttons/archive/1.0.1.zip",
     "url": "https://github.com/LebombJames/pf2e-always-damage-buttons"
 }
