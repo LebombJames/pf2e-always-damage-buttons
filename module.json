@@ -1,24 +1,35 @@
 {
-	"id": "pf2e-always-damage-buttons",
-	"title": "Pf2E Always Damage Buttons",
-	"description": "Always show damage buttons on damage rolls because Shark said no.",
-	"version": "1.0.1",
-	"authors": [
-		{
-			"name": "LebombJames",
-			"url": "https://github.com/LebombJames",
-			"discord": "lebombjames1"
-		}
-	],
-	"esmodules": ["always-damage-buttons.mjs"],
-	"compatibility": {
-		"minimum": 11,
-		"verified": 11
-	},
-	"relationships": {
-		"requires": [{ "id": "pf2e", "type": "system" }]
-	},
-    "manifest": "https://raw.githubusercontent.com/LebombJames/pf2e-always-damage-buttons/main/module.json",
-    "download": "https://github.com/LebombJames/pf2e-always-damage-buttons/archive/1.0.1.zip",
-    "url": "https://github.com/LebombJames/pf2e-always-damage-buttons"
+  "id": "pf2e-always-damage-buttons",
+  "title": "Pf2E Always Damage Buttons",
+  "description": "Always show damage buttons on damage rolls because Shark said no.",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "LebombJames",
+      "url": "https://github.com/LebombJames",
+      "discord": "lebombjames1"
+    }
+  ],
+  "esmodules": [
+    "always-damage-buttons.mjs"
+  ],
+  "compatibility": {
+    "minimum": 11,
+    "verified": 12
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.1.3"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/LebombJames/pf2e-always-damage-buttons/main/module.json",
+  "download": "https://github.com/LebombJames/pf2e-always-damage-buttons/archive/1.0.2.zip",
+  "url": "https://github.com/LebombJames/pf2e-always-damage-buttons"
 }
